@@ -1,31 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Menu</title>
+    <title>Blog</title>
+    <link rel="stylesheet" href="estiloblog.css" type="text/css">
+    <h1>Mundo HTML y CSS</h1>
 </head>
 <body>
-    <!--terea:
-    crear un menu de los ejmplos echos en clase,usando listas
-    de enlaces a las paginas creadas. 
-    En cada una de las paginas agregar un enlace para regresar al incide
-    -->
-    <font color="red" face="arial">  
-        <h1>Menu hacia los ejemplos creados en clase</h1>
-    </font>
-    <dl>
-        <dt> <a href="listas.html">Listas</a> </dt>
-        <dd>Ejemplos de listas Ordenadas, NO Ordenadas y Listas de Descripción.</dd>
-        <dt> <a href="Estructura.html"> Estructuras</a></dt>
-        <dd>Ejemplo de un estructura en HTML</dd>
-        <dt> <a href="Enlaces.html">Enlaces </a></dt>
-        <dd>Ejemplo de enlaces en HTML como abrirlos en otra pestaña o utulizar enlaces de descarga.</dd>
-        <dt><a href="imagenes.html">Imagenes</a></dt>
-        <dd>Cargar imagnes en HTML</dd>
-        <dt><a href="Parrafos.html">Parrafos</a></dt>
-        <dd>Se utilizan las etiquetas como &#60 h1 &#62 ....&#60 h6 &#62  para definir titulos, la etiqueta &#60 p &#62 ara definir parrafos, la etiqueta &#60 strong &#62 para <strong>RESALTAR</strong> texto, la etiqueta &#60 i &#62 para escribir en <i>Cursiva</i>, la etiqueta &#60 b &#62 para <b>Negritas</b> y la etiqueta &#60 br &#62 para hacer saltos de linea.</dd>
-        <dt><a href="Tablas.html">Tablas</a></dt>
-        <dd>Ejemplo de una tabla en HTML</dd>
-    </dl>
+    <div id="centro">
+    <h2>Acerca de HTML:</h2>
+    <p>
+        <i>(Hypertetx Markup Lenguaje) Lenguaje de Marcado para Texto</i>.Hace referencia al lenguaje de marcado para la elaboración de páginas web. Es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado código HTML) para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros.
+    </p>
+        <ul>
+            <li>Las paginas de HTML son docuemntos de texto </li>
+            <li>HTML usa <b>elemntos</b> para definir la <b>estructura</b> de la pagina</li>
+            <li>Los elemntos se definen por <b>etiquetas</b> encerradas en parentesis angulares &lt; y &gt;</li>
+            <li>Las etiquetas definen el contenido de un elemento</li>
+            <li>Exiten etiquetas de apertura <i>&lt;entiqueta&gt;</i> y de cierre <i>&lt;/etiqueta&gt;</i>.</li>
+            <li>El nombre de la etiqueta debe ser el mismo y se distinge a la etiqueta de cierre con una diagonal. &nbsp; <i>&lt;etiqueta&gt;contenido &lt;/etiqueta&gt;</i>.</li>
+            <li>Las etiquetas pueden tener <b>atributos</b> los cuales se especifican ene la etiqueta de inicio.</li>
+            <li>Los atributos contienen informacion adiocional acerca del contenido. &nbsp; <i>&lt;etiqueta atributo="valor"&gt; contenido &lt;/etiqueta&gt;</i></li>
+        </ul>
+    </div>
+    <div id="menu">
+        <br>
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="Estructura.html">Estructura Semantica</a></li>
+            <li><a href="parrafos.html">Texto en HTML</a></li>
+            <li><a href="Enlaces.html">Enlaces en HTML</a></li>
+            <li><a href="imagenes.html">Imagenes</a></li>
+            <li><a href="listas.html">Listas</a></li>
+        </ul>
+    </div>
 </body>
 </html>
