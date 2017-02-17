@@ -3,18 +3,29 @@
     <head>
         <title>Enlases HTML</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="estiloblog.css" type="text/css">
     </head>
     <body>
         <header>
             <h1>Ejemplo de Enlases</h1>
         </header>
         <main>
-            <a href="#">Enlace Nulo</a>
-            <a href="http://google.com"target="_blank">Ir a Google</a>
-            <a href="Estrcutura.html">Ejemplos de Estructura HTML</a>
-            <a href="temario.pdf"download>temario del curso</a>
+            <div id="enlaces">
+              <p>Tenemos 3 tipos diferentes de enlaces en html:</p>
+             <p style="color: darkblue">Enlace Nulo:</p>   <p>Este enlace no te lleva a ningun lado,este enlace no se cuenta <a href="#">Enlace Nulo</a></p>
+
+             <p style="color: darkblue">Enlace Absoluto:</p>
+             <p>Este enlace te direcciona a otra pagina utilizando la URL completa del sitio. 
+            <a href="http://google.com"target="_blank">Ir a Google</a></p>
+            
+            <p style="color: darkblue">Enlace Relativo:</p>
+            <p>Este es un enlace a un sitio local <a href="Estrcutura.html">Ejemplos de Estructura HTML</a></p>
+
+            <p style="color: darkblue">Enlace de Descarga:</p>
+            <p>En este tipo de enlace el fichero a descargar puede ser local o desde algun sitio en internet, utilizamos el atributo "download" <a href="temario.pdf"download>temario del curso</a></p>
+            <br>
+            <p><a href="blog.html"><b>REGRESAR</b></a></p>
+            </div>
         </main>
-     <br>
-    <p><a href="index.html"> Regresar</a></p>
     </body>
 </html>
