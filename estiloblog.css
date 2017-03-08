@@ -45,3 +45,8 @@ h1{
     border-color: black;
     border-width: 1px;
 }
+.certificado
+{
+    position: relative;
+    top: 600px;
+}
