@@ -62,8 +62,53 @@ h1{
     background-color: lightblue;
     position: absolute;
     left: 55%;
-    border: 1px solid;
+    border: 1px  solid;
 }
 h5{
     color: green;
+}
+#tipo,#decendente,#hijo,#ide,#clases,#universal{
+    background-color: lightblue;
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 1px solid #000000;
+    width: 300px;
+    text-align: center;
+}
+#decendente{
+    position: relative;
+    left: 450px;
+    top: -160px;
+}
+#hijo{
+    position: relative;
+    left: 850px;
+    top: -300px;
+}
+#ide{
+    position: relative;
+    top: -200px;
+}
+#clases{
+    position: relative;
+    left: 450px;
+    top: -380px;
+}
+#universal{
+    position: relative;
+    left: 850px;
+    top: -560px;
+}
+
+.ej{
+    background-color: cornflowerblue;
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+h4{
+    color: red;
 }
